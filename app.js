@@ -3,8 +3,8 @@ const app = express();
 const http = require('http');
 
 //deifining routes
-const homeRoute = require("./api/routes/home");
+const indexRoute = require("./api/routes/index");
 
-app.use("/", homeRoute);
+app.use("/", indexRoute);
 
 module.exports = app;

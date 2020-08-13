@@ -5,13 +5,13 @@ const app = require("./app");
 const port = process.env.PORT || 8080;
 const server = http.createServer(app);
 
-app.use(express.static('assets')); 
-app.set('views','./views');
+app.use(express.static('assets'));
+app.set('views', './views');
 app.set('view engine', 'jade');
 app.use(bodyParsed.urlencoded({
-    extended:true
+    extended: true
 }));
 
-server.listen(port, function(){
-    console.log('Chat server running');
+server.listen(port, function() {
+    console.log('Server Running! Open Chrome Now');
 });

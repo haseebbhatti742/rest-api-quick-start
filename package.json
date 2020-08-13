@@ -1,22 +1,22 @@
 {
-  "name": "goldmine",
-  "version": "1.0.0",
-  "description": "Goldmine is an add posting web portal",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Haseeb Bhatti",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "connect-flash": "^0.1.1",
-    "cookie-parser": "^1.4.4",
-    "express": "^4.17.1",
-    "express-session": "^1.17.0",
-    "jade": "^1.11.0",
-    "mysql": "^2.17.1",
-    "path": "^0.12.7",
-    "session": "^0.1.0"
-  }
+    "name": "goldmine",
+    "version": "1.0.0",
+    "description": "Goldmine is an add posting web portal",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Haseeb Bhatti",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "connect-flash": "^0.1.1",
+        "cookie-parser": "^1.4.4",
+        "express": "^4.17.1",
+        "express-session": "^1.17.0",
+        "jade": "^1.11.0",
+        "mysql": "^2.17.1",
+        "path": "^0.12.7",
+        "session": "^0.1.0"
+    }
 }
